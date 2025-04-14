@@ -1,5 +1,8 @@
-h1 {
+* {
     font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
     text-align: center;
     background-color: rgb(19, 19, 117);
     color: white;
@@ -9,13 +12,21 @@ div.list {
     text-align: center;
 }
 
-ul {
-    font-family: Arial, Helvetica, sans-serif;
+ul,
+ol {
     margin: 5px;
     display: inline-block;
     text-align: left;
 }
 
-ul li {
+ul li,
+ol li {
     margin-bottom: 10px;
+}
+
+.home {
+    background-color: rgb(255, 0, 0);
+    color: white;
+    font-weight: 700;
+    padding: 5px;
 }
